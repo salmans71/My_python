@@ -7,3 +7,7 @@ def fibonacci(n):
 input_value = 5
 result = fibonacci(input_value)
 print(result)
+
+
+#fibonacci = lambda n: [] if n == 0 else [0] if n == 1 else [0, 1] if n == 2 else fibonacci(n - 1) + [fibonacci(n - 1)[-1] + fibonacci(n - 1)[-2]]
+#print(fibonacci(5))
