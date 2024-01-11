@@ -1,0 +1,9 @@
+def fibonacci(n):
+    fib_box = [0,1]
+    while len(fib_box) < n:
+        fib_box.append(fib_box[-1] + fib_box[-2])
+    return fib_box
+
+input_value = 5
+result = fibonacci(input_value)
+print(result)
